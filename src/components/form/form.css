@@ -1,0 +1,88 @@
+.formulario-content {
+    width: 60%;
+    height: 70%;
+    background: #fff;
+    border-radius: 24px;
+    border: 3px solid black;
+    margin: 30px auto 20px;
+    overflow: hidden;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario label {
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    margin: 20px 0 10px 0;
+}
+
+#formulario input {
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 24px;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+#formulario textarea {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 24px;
+    outline: none;
+    font-family: inherit;
+    font-size: 15px;
+    color: black;
+    resize: none;
+    text-align: center;
+}
+
+#formulario .send {
+    width: 100%;
+    display: flex;
+    /* margin: 40px auto; */
+    justify-content: center;
+}
+
+.send button {
+    width: 150px;
+    height: 40px;
+    background: black;
+    border-radius: 24px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.send button:hover {
+    background: #3b4150;
+}
+
+.mensaje-form p{
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width:480px) {
+    .formulario-content {
+        width: 95%;
+    }
+}

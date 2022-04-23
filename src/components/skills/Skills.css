@@ -1,0 +1,134 @@
+.container__skills {
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+    color: #fff;
+    background: linear-gradient(to bottom, #000, rgb(112, 109, 109), #000);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+}
+
+.title__skills {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.text-skills {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.grid__skills {
+    width: 88%;
+    height: 64%;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "react js   js  git"
+    "react html css css";
+}
+
+.grid__skills div {
+    width: 100%;
+    height: 100%;
+}
+
+.html {
+    width: 100%;
+    height: 100%;
+    grid-area: html;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f06529;
+}
+
+.html img {
+   height: 100%;
+}
+
+.css {
+    grid-area: css;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #264de4;
+}
+
+.css img {
+    height: 100%;
+}
+
+.js {
+    grid-area: js;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0DB4F;
+}
+
+.js img {
+    height: 100%;
+}
+
+.git {
+    grid-area: git;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.git img {
+    height: 100%;
+}
+
+.react {
+    grid-area: react;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+@media only screen and (max-width:800px) {
+    .title__skills {
+        font-size: 3rem;
+    }
+    
+    .text-skills {
+        font-size: 1.3rem;
+    }
+
+    .grid__skills img {
+       width: 60%;
+       height: 60%;
+    }
+    
+}
+
+@media only screen and (max-width:600px) {
+    .text-skills {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .grid__skills {
+        height: 40vh;
+    }
+}
+
+
+
+
+
+
+
