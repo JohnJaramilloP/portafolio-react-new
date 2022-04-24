@@ -29,7 +29,10 @@ const Slider = () => {
           <img className="slider__img" src={portafolio} alt="portafolio" />
           <div className="legenda">
             <span>
-              <a href="#">Portafolio responsive - Landing page HTML, CSS, JS</a>
+              <a href="https://johnjaramillop.github.io/portafolio/" target="_blank">Portafolio responsive - Landing page HTML, CSS, JS</a>
+            </span>
+            <span>
+              <a href="https://github.com/JohnJaramilloP/portafolio" target="_blank">Repositorio</a>
             </span>
           </div>
         </div>
@@ -41,7 +44,10 @@ const Slider = () => {
           />
           <div className="legenda">
             <span>
-              <a href="#">Portafolio Bandas Hard Rock - HTML, CSS, JS</a>
+              <a href="https://johnjaramillop.github.io/portafolio-bandas-hard/" target="_blank">Portafolio Bandas Hard Rock - HTML, CSS, JS</a>
+            </span>
+            <span>
+              <a href="https://github.com/JohnJaramilloP/portafolio-bandas-hard" target="_blank">Repositorio</a>
             </span>
           </div>
         </div>
@@ -49,9 +55,12 @@ const Slider = () => {
           <img className="slider__img" src={technews} alt="technews" />
           <div className="legenda">
             <span>
-              <a href="#">
+              <a href="https://johnjaramillop.github.io/tech-news/" target="_blank">
                 Tech News - Responsive - Landing page HTML, CSS, JS
               </a>
+            </span>
+            <span>
+              <a href="https://github.com/JohnJaramilloP/tech-news" target="_blank">Repositorio</a>
             </span>
           </div>
         </div>
@@ -59,9 +68,12 @@ const Slider = () => {
           <img className="slider__img" src={netflixclon} alt="netflixclon" />
           <div className="legenda">
             <span>
-              <a href="#">
+              <a href="https://johnjaramillop.github.io/copia-netflix/" target="_blank">
                 Netflix clon - Responsive - Landing page HTML, CSS, JS
               </a>
+            </span>
+            <span>
+              <a href="https://github.com/JohnJaramilloP/copia-netflix" target="_blank">Repositorio</a>
             </span>
           </div>
         </div>
@@ -69,10 +81,27 @@ const Slider = () => {
           <img className="slider__img" src={appclima} alt="appclima" />
           <div className="legenda">
             <span>
-              <a href="#">
+              <a href="https://johnjaramillop.github.io/app-del-clima/" target="_blank">
                 Principales ciudades de Colombia - Aplicación del clima - HTML,
                 CSS, JS
               </a>
+            </span>
+            <span>
+              <a href="https://github.com/JohnJaramilloP/app-del-clima" target="_blank">Repositorio</a>
+            </span>
+          </div>
+        </div>
+        <div className="slider__container__img">
+          <img className="slider__img" src={appclima} alt="appclima" />
+          <div className="legenda">
+            <span>
+              <a href="https://johnjaramillop.github.io/app-del-clima/" target="_blank">
+                Principales ciudades de Colombia - Aplicación del clima - HTML,
+                CSS, JS
+              </a>
+            </span>
+            <span>
+              <a href="https://github.com/JohnJaramilloP/app-del-clima" target="_blank">Repositorio</a>
             </span>
           </div>
         </div>

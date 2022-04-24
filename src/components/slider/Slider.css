@@ -76,14 +76,23 @@
     bottom: 0;
 }
 
+.legenda {
+    display: flex;
+    flex-direction: column;
+}
+
 .legenda > span {
     display: block;
-    padding: 5rem;
+    padding: 1rem;
 }
 
 span a {
     color: #fff;
     text-decoration: none;
+}
+
+span:hover a {
+    text-decoration: underline;
 }
 
 @media only screen and (max-width:1150px) {
