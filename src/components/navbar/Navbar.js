@@ -27,16 +27,16 @@ const Navbar = ({ isScrolling }) => {
       </div>
       <div className={`menu__nav ${isOpen ? "active" : null}`}>
         <Link className="menu__options" to="/" onClick={e => navMenu(e)}>
-          <p>Home</p>
+          <p onClick={toTheTop}>Home</p>
         </Link>
         <Link className="menu__options" to="/about" onClick={e => navMenu(e)}>
-          <p>Acerca de mí</p>
+          <p onClick={toTheTop}>Acerca de mí</p>
         </Link>
         <Link className="menu__options" to="/proyects" onClick={e => navMenu(e)}>
-        <p>Mis proyectos</p>
+        <p onClick={toTheTop}>Mis proyectos</p>
         </Link>
         <Link className="menu__options" to="/skills" onClick={e => navMenu(e)}>
-        <p>Habilidades</p>
+        <p onClick={toTheTop}>Habilidades</p>
         </Link>
       </div>
       <div className="hamburger__menu">
