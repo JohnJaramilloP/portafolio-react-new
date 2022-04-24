@@ -101,15 +101,15 @@
 @media only screen and (max-width:480px) {
 
     .about__description .about-title {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         margin-bottom: .5rem;
     }
 
     .about__img {
-       height: 20vh;
+       height: 15vh;
     }
 
     .about__text {
-        font-size: .8rem;
+        font-size: .7rem;
     }
 }
