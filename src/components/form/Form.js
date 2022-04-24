@@ -46,6 +46,10 @@ const Form = () => {
             Enviar
           </button>
         </div>
+
+        <div className="mensaje-form">
+          <p>Contáctame si quieres que trabajemos juntos.</p>
+        </div>
       </form>
     </div>
   );
