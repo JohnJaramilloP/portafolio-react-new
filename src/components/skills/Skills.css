@@ -99,6 +99,10 @@
 
 
 @media only screen and (max-width:800px) {
+    .container__skills {
+        padding-top: 0;
+    }
+
     .title__skills {
         font-size: 3rem;
     }
@@ -129,6 +133,7 @@
 @media only screen and (max-width:480px) {
     .title__skills{
         font-size: 2rem;
+        margin-bottom: 0;
     }
 
     .text-skills {
