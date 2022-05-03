@@ -9,6 +9,7 @@ import netflixclon from "../assets/imagenes/netflixclon.png";
 import appclima from "../assets/imagenes/appclima.png";
 import Dashboard from "../assets/imagenes/Dashboard.png";
 import AnimatedPage from "../AnimatedPage/AnimatedPage";
+import Apppeliculas from "../assets/imagenes/app-peliculas.png";
 
 const Slider = () => {
   return (
@@ -27,12 +28,36 @@ const Slider = () => {
           // centerSlidePercentage="20"
         >
           <div className="slider__container__img">
+            <img className="slider__img" src={Apppeliculas} alt="App-peliculas" />
+            <div className="legenda">
+              <span>
+                <a
+                  href="https://johnjaramillop.github.io/App-peliculas/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  App de peliculas - React
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://github.com/JohnJaramilloP/App-peliculas"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repositorio
+                </a>
+              </span>
+            </div>
+          </div>
+          <div className="slider__container__img">
             <img className="slider__img" src={Dashboard} alt="appclima" />
             <div className="legenda">
               <span>
                 <a
                   href="https://johnjaramillop.github.io/Dashboard_covid-19/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Dashboard para reporte COVID-19 -
                   React
@@ -42,6 +67,7 @@ const Slider = () => {
                 <a
                   href="https://github.com/JohnJaramilloP/Dashboard_covid-19"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Repositorio
                 </a>
@@ -55,6 +81,7 @@ const Slider = () => {
                 <a
                   href="https://johnjaramillop.github.io/portafolio/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Portafolio responsive - Landing page HTML, CSS, JS
                 </a>
@@ -63,6 +90,7 @@ const Slider = () => {
                 <a
                   href="https://github.com/JohnJaramilloP/portafolio"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Repositorio
                 </a>
@@ -80,6 +108,7 @@ const Slider = () => {
                 <a
                   href="https://johnjaramillop.github.io/portafolio-bandas-hard/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Portafolio Bandas Hard Rock - HTML, CSS, JS
                 </a>
@@ -88,6 +117,7 @@ const Slider = () => {
                 <a
                   href="https://github.com/JohnJaramilloP/portafolio-bandas-hard"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Repositorio
                 </a>
@@ -101,6 +131,7 @@ const Slider = () => {
                 <a
                   href="https://johnjaramillop.github.io/tech-news/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Tech News - Responsive - Landing page HTML, CSS, JS
                 </a>
@@ -109,6 +140,7 @@ const Slider = () => {
                 <a
                   href="https://github.com/JohnJaramilloP/tech-news"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Repositorio
                 </a>
@@ -122,6 +154,7 @@ const Slider = () => {
                 <a
                   href="https://johnjaramillop.github.io/copia-netflix/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Netflix clon - Responsive - Landing page HTML, CSS, JS
                 </a>
@@ -130,6 +163,7 @@ const Slider = () => {
                 <a
                   href="https://github.com/JohnJaramilloP/copia-netflix"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Repositorio
                 </a>
@@ -143,6 +177,7 @@ const Slider = () => {
                 <a
                   href="https://johnjaramillop.github.io/app-del-clima/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Principales ciudades de Colombia - Aplicación del clima -
                   HTML, CSS, JS
@@ -152,6 +187,7 @@ const Slider = () => {
                 <a
                   href="https://github.com/JohnJaramilloP/app-del-clima"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Repositorio
                 </a>
