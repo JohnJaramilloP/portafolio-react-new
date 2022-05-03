@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portafolio-react-new/static/css/main.1f0e4369.css",
-    "main.js": "/portafolio-react-new/static/js/main.2a465685.js",
+    "main.js": "/portafolio-react-new/static/js/main.178d00f5.js",
     "static/media/heroVideo.mp4": "/portafolio-react-new/static/media/heroVideo.cc915ce3662a7860c97c.mp4",
     "static/media/portafolio.png": "/portafolio-react-new/static/media/portafolio.9c6272ae822b0705775f.png",
     "static/media/netflixclon.png": "/portafolio-react-new/static/media/netflixclon.7e153b11b35be9acc457.png",
     "static/media/portafolioBandas.png": "/portafolio-react-new/static/media/portafolioBandas.562a251f8e18381c3901.png",
     "static/media/technews.png": "/portafolio-react-new/static/media/technews.eba592774c47e601718e.png",
+    "static/media/app-peliculas.png": "/portafolio-react-new/static/media/app-peliculas.2e32439abb989a4cd018.png",
     "static/media/john.jpg": "/portafolio-react-new/static/media/john.5544d6ff8ae24f7863be.jpg",
     "static/media/Dashboard.png": "/portafolio-react-new/static/media/Dashboard.626ee472320e1e10dd99.png",
     "static/media/appclima.png": "/portafolio-react-new/static/media/appclima.ebf0d14b7c6ebd2a7cb5.png",
@@ -15,10 +16,10 @@
     "static/media/CSS3.webp": "/portafolio-react-new/static/media/CSS3.32165ba2a94d1ca540d7.webp",
     "index.html": "/portafolio-react-new/index.html",
     "main.1f0e4369.css.map": "/portafolio-react-new/static/css/main.1f0e4369.css.map",
-    "main.2a465685.js.map": "/portafolio-react-new/static/js/main.2a465685.js.map"
+    "main.178d00f5.js.map": "/portafolio-react-new/static/js/main.178d00f5.js.map"
   },
   "entrypoints": [
     "static/css/main.1f0e4369.css",
-    "static/js/main.2a465685.js"
+    "static/js/main.178d00f5.js"
   ]
 }
